@@ -1,0 +1,54 @@
+@import "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700";
+
+/*
+ * Custom classes
+ */
+
+.card-header-icon {
+  font-size: 128px;
+  text-align: center;
+}
+
+.header-image {
+  background-image: url(../img/headerVector.svg);
+  background-size: auto 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.header-button {
+  border: #ffffff solid thick;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-button:hover {
+  background-color: #ffffff;
+  color: #e4be39;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+/*
+ * Bootstrap variables
+ */
+
+$dark: #000;
+$warning: #e4be39;
+
+$font-size-base: 1.2rem;
+$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
+
+$headings-font-weight: 700;
+
+$navbar-brand-font-size: 1.5rem;
+
+$dropdown-border-radius: 0;
+
+/*
+ * Imports
+ */
+
+@import "../node_modules/bootstrap/scss/bootstrap";
